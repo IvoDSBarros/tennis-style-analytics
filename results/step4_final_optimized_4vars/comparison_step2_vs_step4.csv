@@ -1,0 +1,7 @@
+step,surface,variables,n_p_ratio,kmo,bartlett_p,max_vif,total_variance
+Step 2 (Statistical Selection),Clay,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, fisrt_serve_pct",5.25,0.577,0.724,1.18,63.3%
+Step 4 (Optimized),Clay,"winner_error_ratio, unreturned_serve_rate, serve_placement_variety, net_points_won_pct",5.25,0.522,0.002,2.04,82.9%
+Step 2 (Statistical Selection),Grass,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, break_points_saved_pct",5.25,0.582,0.608,1.19,64.2%
+Step 4 (Optimized),Grass,"winner_error_ratio, ace_rate, unreturned_serve_rate, net_points_won_pct",5.25,0.466,0.0004,2.39,83.2%
+Step 2 (Statistical Selection),Hard,"winner_error_ratio, drop_shot_effectiveness, break_points_saved_pct, break_point_conversion_pct",5.25,0.525,0.013,1.99,77.6%
+Step 4 (Optimized),Hard,"winner_error_ratio, break_points_saved_pct, fisrt_serve_pts_won, unreturned_serve_rate",5.25,0.624,0.0,3.8,90.2%

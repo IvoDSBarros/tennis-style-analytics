@@ -1,0 +1,11 @@
+n_variables,variables,pc1_variance,pc2_variance,total_variance,n_p_ratio
+4,"winner_error_ratio, ace_rate, unreturned_serve_rate, net_points_won_pct",0.5196841174025011,0.31183493997201556,0.8315190573745166,5.25
+4,"ace_rate, return_points_won_pct, break_point_conversion_pct, net_points_won_pct",0.4467245964777124,0.3677825357532966,0.814507132231009,5.25
+4,"winner_error_ratio, unreturned_serve_rate, return_points_won_pct, break_point_conversion_pct",0.5909647038563679,0.22332632003736472,0.8142910238937326,5.25
+4,"winner_error_ratio, ace_rate, unreturned_serve_rate, crosscourt_ratio",0.49121705529898163,0.32260780119087423,0.8138248564898558,5.25
+4,"winner_error_ratio, unreturned_serve_rate, return_points_won_pct, slice_rate",0.5430998084686659,0.2682579098806185,0.8113577183492844,5.25
+4,"winner_error_ratio, fisrt_serve_pct, fisrt_serve_pts_won, unreturned_serve_rate",0.42561080519746397,0.38297354083050217,0.8085843460279661,5.25
+4,"winner_error_ratio, ace_rate, return_points_won_pct, break_point_conversion_pct",0.515809651388002,0.29039571591897556,0.8062053673069776,5.25
+4,"unreturned_serve_rate, return_points_won_pct, break_point_conversion_pct, slice_rate",0.5375399590445272,0.2681927317601993,0.8057326908047265,5.25
+4,"winner_error_ratio, ace_rate, unreturned_serve_rate, break_point_conversion_pct",0.5221875245774478,0.28147575846862477,0.8036632830460726,5.25
+4,"winner_error_ratio, fisrt_serve_pct, unreturned_serve_rate, serve_placement_variety",0.47424060157654224,0.3277860116979757,0.802026613274518,5.25

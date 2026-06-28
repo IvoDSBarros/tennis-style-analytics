@@ -1,0 +1,4 @@
+surface,n_players,n_variables,n_p_ratio,pc1_variance,pc2_variance,total_variance_2pc
+Clay,21,8,2.62,0.3371,0.2177,0.5548
+Grass,21,8,2.62,0.2841,0.2284,0.5125
+Hard,21,8,2.62,0.2971,0.1968,0.4939

@@ -1,0 +1,4 @@
+surface,n_variables,n_p_ratio,step1_variance,step2_variance,improvement,variables_used
+Clay,4,5.25,0.5548,0.6328007636367254,0.07800076363672548,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, fisrt_serve_pct"
+Grass,4,5.25,0.5125,0.6424545177630093,0.12995451776300937,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, break_points_saved_pct"
+Hard,4,5.25,0.4939,0.7763870548852629,0.28248705488526293,"winner_error_ratio, drop_shot_effectiveness, break_points_saved_pct, break_point_conversion_pct"

@@ -1,0 +1,4 @@
+surface,n,p,n_p_ratio,kmo,bartlett_p,max_vif,variables
+Clay,21,4,5.25,0.522,0.002,2.04,"winner_error_ratio, unreturned_serve_rate, serve_placement_variety, net_points_won_pct"
+Grass,21,4,5.25,0.466,0.0004,2.39,"winner_error_ratio, ace_rate, unreturned_serve_rate, net_points_won_pct"
+Hard,21,4,5.25,0.624,0.0,3.8,"winner_error_ratio, break_points_saved_pct, fisrt_serve_pts_won, unreturned_serve_rate"

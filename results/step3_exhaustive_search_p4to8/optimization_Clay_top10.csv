@@ -1,0 +1,11 @@
+n_variables,variables,pc1_variance,pc2_variance,total_variance,n_p_ratio
+4,"winner_error_ratio, unreturned_serve_rate, serve_placement_variety, net_points_won_pct",0.47111713816291195,0.35772725541860984,0.8288443935815217,5.25
+4,"break_points_saved_pct, ace_rate, fisrt_serve_pct, fisrt_serve_pts_won",0.41741731525928133,0.411317036133556,0.8287343513928374,5.25
+4,"winner_error_ratio, ace_rate, fisrt_serve_pct, fisrt_serve_pts_won",0.4853928952105626,0.3324196193205745,0.8178125145311371,5.25
+4,"return_points_won_pct, break_point_conversion_pct, slice_rate, drop_shot_frequency",0.5023072216874215,0.3152106815571683,0.8175179032445898,5.25
+4,"break_points_saved_pct, fisrt_serve_pts_won, serve_placement_variety, net_points_won_pct",0.4915797564421486,0.32238393378173746,0.813963690223886,5.25
+4,"winner_error_ratio, fisrt_serve_pts_won, serve_placement_variety, net_points_won_pct",0.47121978626279304,0.33904186180023466,0.8102616480630277,5.25
+4,"unreturned_serve_rate, break_point_conversion_pct, slice_rate, drop_shot_frequency",0.453635269662057,0.35584688407590886,0.8094821537379658,5.25
+4,"ace_rate, fisrt_serve_pct, break_point_conversion_pct, slice_rate",0.4887279425088883,0.32029935800634957,0.8090273005152379,5.25
+4,"ace_rate, fisrt_serve_pct, serve_placement_variety, net_points_won_pct",0.45046647463001593,0.3555404634786549,0.8060069381086709,5.25
+4,"winner_error_ratio, break_points_saved_pct, ace_rate, fisrt_serve_pts_won",0.514223718246772,0.28910162456298677,0.8033253428097589,5.25

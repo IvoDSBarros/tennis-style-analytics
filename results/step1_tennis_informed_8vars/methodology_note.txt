@@ -1,0 +1,41 @@
+================================================================================
+STEP 1: TENNIS-INFORMED PCA (8 VARS, 2 COMPONENTS)
+================================================================================
+Date: 2026-05-10 19:25:26
+Configuration: 8 variables, 2 components, 3 surfaces
+Sample: 21 players per surface (Year-end Top 10, 2010-2024)
+
+DIAGNOSTIC FINDINGS:
+-------------------------------------------------------------------------------
+surface  total_variance_2pc  n_p_ratio
+   Clay              0.5548       2.62
+  Grass              0.5125       2.62
+   Hard              0.4939       2.62
+
+LIMITATION STATEMENT:
+-------------------------------------------------------------------------------
+Due to elite sample constraints (n=21 players per surface), 
+2 components capture only 49-55% of playing style variance (n/p=2.6:1 ratio).
+
+This baseline demonstrates that tennis-informed variable selection alone
+is insufficient for statistical robustness with this sample size.
+
+VARIABLES USED:
+-------------------------------------------------------------------------------
+winner_error_ratio, ace_rate, return_points_won_pct, net_points_won_pct, break_point_conversion_pct, serve_placement_variety, slice_rate, crosscourt_ratio
+
+CONCLUSION:
+-------------------------------------------------------------------------------
+Step 1 shows low explained variance. Step 2 will use statistically-selected
+variables (assumption validator). Step 3 will perform exhaustive search
+to find optimal variable combinations.
+
+FILES GENERATED:
+-------------------------------------------------------------------------------
+- scores_all_surfaces.csv      # Player coordinates on PC1/PC2
+- loadings_all_surfaces.csv    # Variable contributions
+- variance_all_surfaces.csv    # Explained variance
+- summary_surface.csv          # Sinner/Alcaraz vs Big 3
+- diagnostics_report.csv       # Variance summary
+- methodology_note.txt         # This file
+================================================================================

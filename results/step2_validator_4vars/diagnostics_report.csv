@@ -1,0 +1,4 @@
+surface,n,p,n_p_ratio,variables,kmo,kmo_pass,bartlett_p,bartlett_pass,vif_max,vif_pass,verdict,action
+Clay,21,4,5.25,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, fisrt_serve_pct",0.577,True,0.7235,False,1.18,True,BORDERLINE,RUN PCA WITH CAUTION
+Grass,21,4,5.25,"winner_error_ratio, drop_shot_effectiveness, break_point_conversion_pct, break_points_saved_pct",0.582,True,0.6082,False,1.19,True,BORDERLINE,RUN PCA WITH CAUTION
+Hard,21,4,5.25,"winner_error_ratio, drop_shot_effectiveness, break_points_saved_pct, break_point_conversion_pct",0.525,False,0.0132,True,1.99,True,FAIL,DO NOT RUN PCA

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis Playing Styles: New Generation vs Big 3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ===== DEVICE WARNING - MOBILE/TABLET BLOCK ===== */
+      .device-warning {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 10000;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+      }
+
+      /* Show on screens smaller than 1024px (tablets and phones) */
+      @media (max-width: 1024px) {
+        .device-warning {
+          display: flex !important;
+        }
+        .dashboard {
+          display: none !important;
+        }
+        body,
+        html {
+          overflow: hidden !important;
+        }
+      }
+
+      .device-warning .icon {
+        font-size: 64px;
+        margin-bottom: 20px;
+      }
+
+      .device-warning h2 {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        letter-spacing: 0.5px;
+      }
+
+      .device-warning p {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 420px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- WELCOME OVERLAY -->
+    <div id="welcome-overlay">
+      <div class="welcome-container">
+        <button
+          id="welcome-close-btn"
+          class="welcome-close-btn"
+          aria-label="Close"
+        >
+          ✕
+        </button>
+        <div class="welcome-icon">🎾</div>
+        <h1 class="welcome-title">Tennis Playing Styles</h1>
+        <p class="welcome-subtitle">
+          An interactive Plotly and CrewAI-powered application that analyzes
+          tennis playing styles of new generation rising stars against the Big
+          3.
+        </p>
+        <div class="welcome-tip">
+          <p>
+            💡 <strong>Pro Tip:</strong> For the best experience, set your
+            display scaling to the recommended value for your screen.
+          </p>
+          <p class="tip-small">
+            Windows: Settings → Display → Scale <br />
+            macOS: System Settings → Displays → Larger Text
+          </p>
+        </div>
+        <button id="welcome-get-started" class="welcome-btn-primary">
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <!-- DEVICE WARNING - SHOWN ON TABLETS AND PHONES -->
+    <div class="device-warning" id="device-warning">
+      <div class="icon">⚠️</div>
+      <h2>Desktop View Recommended</h2>
+      <p>
+        For optimal performance and full access to all interactive features,
+        please view this application on a desktop or laptop computer.
+      </p>
+    </div>
+
+    <div class="dashboard">
+      <!-- LEFT PANEL: 35% -->
+      <div class="left-panel" id="left-panel">
+        <div class="overlay">
+          <h1 class="title">Tennis Playing Styles</h1>
+          <h1 class="sub-title">New Generation vs Big 3</h1>
+
+          <p class="intro">
+            Using Principal Component Analysis (PCA) of 21 elite tennis players
+            spanning 2010-2024, this interactive visualization compares playing
+            styles across Clay, Grass, and Hard courts. How do the new stars
+            compare against the Big 3? Are they following their blueprint or
+            forging their own path? A CrewAI-powered senior tennis analyst
+            delivers the insights for you.<br />
+          </p>
+
+          <div class="methodology" id="methodology">
+            <h3 class="methodology-title">About the method</h3>
+            <p>
+              Credit to Jeff Sackmann's Match Charting Project, whose
+              outstanding shot-level data makes this PCA possible. Because the
+              data is sparse (especially on grass), the analysis is focused on
+              2010-2024, kept only players with ≥5 matches per surface (21
+              players), and sampled 8 matches per player. PCA variable selection
+              was then optimized per surface. For Clay and Grass, statistical
+              rules selected 4 variables while for Hard an exhaustive search
+              across 12,441 combinations found a superior 4-variable set. This
+              mixed approach provides the best of both statistical rigor and
+              explanatory power. Click below to deep dive into the methodology.
+            </p>
+          </div>
+
+          <button class="method-btn" id="method-btn">Methodology</button>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL: 65% -->
+      <div class="right-panel">
+        <div class="top-bar">
+          <div class="surface-selector">
+            <button class="surface-btn active" data-surface="clay">Clay</button>
+            <button class="surface-btn" data-surface="grass">Grass</button>
+            <button class="surface-btn" data-surface="hard">Hard</button>
+          </div>
+
+          <div class="view-selector">
+            <button class="view-btn active" data-view="pca">PCA Biplot</button>
+            <button class="view-btn" data-view="loadings">Loadings</button>
+            <button class="view-btn" data-view="metrics">Raw Metrics</button>
+          </div>
+        </div>
+
+        <!-- Main Content Area (AI Insights + Views) -->
+        <div class="main-content" id="main-content">
+          <!-- AI Insights Panel -->
+          <div id="ai-insights" class="display-ai-insights">
+            <h3 class="title-ai-insights">AI Insights</h3>
+
+            <div id="ai-insights-text" class="has-more-content">
+              Select a surface to see AI analysis.
+            </div>
+          </div>
+
+          <!-- Visuals Container with PCA Card -->
+          <div id="pca-view" class="view-content">
+            <div class="pca-card">
+              <div class="legend-section">
+                <div class="custom-legend">
+                  <div class="legend-item">
+                    <span>Sinner / Alcaraz</span>
+                    <div class="legend-line" style="background: #ffcb06"></div>
+                  </div>
+                  <div class="legend-item">
+                    <span>Big 3</span>
+                    <div class="legend-line" style="background: #ff5733"></div>
+                  </div>
+                  <div class="legend-item">
+                    <span>Others</span>
+                    <div class="legend-line" style="background: #e2dece"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="plot-section">
+                <div id="pca-plot" class="plot-container"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Loadings View -->
+          <div id="loadings-view" class="view-content" style="display: none">
+            <div class="loadings-container"></div>
+          </div>
+
+          <!-- Raw Metrics View -->
+          <div id="metrics-view" class="view-content" style="display: none">
+            <div class="metrics-container"></div>
+          </div>
+        </div>
+
+        <!-- Methodology View - FULL WIDTH (outside main-content) -->
+        <div
+          id="methodology-view"
+          class="methodology-full"
+          style="display: none"
+        >
+          <div class="methodology-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,945 @@
+{
+  "clusters": {
+    "Clay": {
+      "status": "success",
+      "n_players": 21,
+      "n_clusters": 3,
+      "actual_clusters_drawn": 3,
+      "best_silhouette_score": 0.3085,
+      "players": [
+        "Alexander Zverev",
+        "Andy Murray",
+        "Carlos Alcaraz",
+        "Daniil Medvedev",
+        "David Goffin",
+        "Felix Auger Aliassime",
+        "Grigor Dimitrov",
+        "Hubert Hurkacz",
+        "Jannik Sinner",
+        "Kei Nishikori",
+        "Marin Cilic",
+        "Matteo Berrettini",
+        "Milos Raonic",
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Roberto Bautista Agut",
+        "Roger Federer",
+        "Stan Wawrinka",
+        "Stefanos Tsitsipas",
+        "Taylor Fritz",
+        "Tomas Berdych"
+      ],
+      "coordinates": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": -0.1981,
+          "PC2": 1.9547
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -0.3865,
+          "PC2": 0.0519
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 0.053,
+          "PC2": 0.5136
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.226,
+          "PC2": -2.0482
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -1.1959,
+          "PC2": -0.0299
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": 1.6648,
+          "PC2": 0.3916
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -0.6195,
+          "PC2": 0.691
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": -0.9324,
+          "PC2": -1.2182
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 0.0601,
+          "PC2": -0.788
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -0.6017,
+          "PC2": -1.0398
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": 0.0925,
+          "PC2": -0.9335
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": 0.8611,
+          "PC2": 0.7751
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": -1.8696,
+          "PC2": 1.5168
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 0.4609,
+          "PC2": 0.9538
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": 3.0908,
+          "PC2": 0.9512
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": 0.0422,
+          "PC2": 0.5968
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 0.0071,
+          "PC2": 0.1389
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": -3.012,
+          "PC2": 0.1019
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 0.348,
+          "PC2": -0.1703
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": 1.1875,
+          "PC2": -0.9887
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": 1.1737,
+          "PC2": -1.4208
+        }
+      ]
+    },
+    "Grass": {
+      "status": "success",
+      "n_players": 21,
+      "n_clusters": 3,
+      "actual_clusters_drawn": 3,
+      "best_silhouette_score": 0.4034,
+      "players": [
+        "Alexander Zverev",
+        "Andy Murray",
+        "Carlos Alcaraz",
+        "Daniil Medvedev",
+        "David Goffin",
+        "Felix Auger Aliassime",
+        "Grigor Dimitrov",
+        "Hubert Hurkacz",
+        "Jannik Sinner",
+        "Kei Nishikori",
+        "Marin Cilic",
+        "Matteo Berrettini",
+        "Milos Raonic",
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Roberto Bautista Agut",
+        "Roger Federer",
+        "Stan Wawrinka",
+        "Stefanos Tsitsipas",
+        "Taylor Fritz",
+        "Tomas Berdych"
+      ],
+      "coordinates": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": 0.1814,
+          "PC2": -0.3588
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -1.0519,
+          "PC2": -1.3653
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 0.1005,
+          "PC2": 0.0315
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.1464,
+          "PC2": 1.5391
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -0.6836,
+          "PC2": -1.9499
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": -1.2769,
+          "PC2": 0.2679
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -0.5305,
+          "PC2": -0.2206
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": -0.3463,
+          "PC2": 0.1663
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 0.2557,
+          "PC2": 1.5342
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -2.4494,
+          "PC2": 0.6296
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": 0.6711,
+          "PC2": -1.5467
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": -0.9509,
+          "PC2": 0.5091
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": 2.8041,
+          "PC2": -0.6016
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 0.2381,
+          "PC2": 0.2945
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": 0.3326,
+          "PC2": 1.1089
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": -0.8731,
+          "PC2": -0.4686
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 0.4096,
+          "PC2": 1.0076
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": 0.9257,
+          "PC2": -1.3195
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 3.4853,
+          "PC2": 0.6705
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": -0.4443,
+          "PC2": -0.8215
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": -0.6508,
+          "PC2": 0.8934
+        }
+      ]
+    },
+    "Hard": {
+      "status": "success",
+      "n_players": 21,
+      "n_clusters": 5,
+      "actual_clusters_drawn": 5,
+      "best_silhouette_score": 0.411,
+      "players": [
+        "Alexander Zverev",
+        "Andy Murray",
+        "Carlos Alcaraz",
+        "Daniil Medvedev",
+        "David Goffin",
+        "Felix Auger Aliassime",
+        "Grigor Dimitrov",
+        "Hubert Hurkacz",
+        "Jannik Sinner",
+        "Kei Nishikori",
+        "Marin Cilic",
+        "Matteo Berrettini",
+        "Milos Raonic",
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Roberto Bautista Agut",
+        "Roger Federer",
+        "Stan Wawrinka",
+        "Stefanos Tsitsipas",
+        "Taylor Fritz",
+        "Tomas Berdych"
+      ],
+      "coordinates": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": 2.2683,
+          "PC2": 0.9433
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -2.5949,
+          "PC2": -0.2908
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 1.1549,
+          "PC2": 1.8075
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.9027,
+          "PC2": -0.6898
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -3.4729,
+          "PC2": 1.103
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": -1.626,
+          "PC2": 0.3846
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -1.0313,
+          "PC2": -0.3786
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": 0.3932,
+          "PC2": -1.5625
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 1.7027,
+          "PC2": -0.3641
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -1.7296,
+          "PC2": 0.3927
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": -1.1382,
+          "PC2": -0.3436
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": -0.9643,
+          "PC2": 0.0135
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": 2.7333,
+          "PC2": 0.8593
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 1.8996,
+          "PC2": -0.5774
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": -1.3219,
+          "PC2": -0.6947
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": 0.4308,
+          "PC2": 1.4697
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 1.5792,
+          "PC2": -2.0948
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": 0.6908,
+          "PC2": -0.9424
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 0.1422,
+          "PC2": 0.0891
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": 1.0956,
+          "PC2": 1.3209
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": 0.6912,
+          "PC2": -0.4449
+        }
+      ]
+    }
+  },
+  "visualization": {
+    "Clay": {
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "players": [
+            "Felix Auger Aliassime",
+            "Matteo Berrettini",
+            "Novak Djokovic",
+            "Rafael Nadal"
+          ],
+          "n_players": 4,
+          "ellipse": {
+            "center_x": 1.7759,
+            "center_y": 0.6727,
+            "radius_x": 1.7649,
+            "radius_y": 0.5611
+          }
+        },
+        {
+          "cluster_id": 2,
+          "players": [
+            "Daniil Medvedev",
+            "Hubert Hurkacz",
+            "Jannik Sinner",
+            "Kei Nishikori",
+            "Marin Cilic",
+            "Stefanos Tsitsipas",
+            "Taylor Fritz",
+            "Tomas Berdych"
+          ],
+          "n_players": 8,
+          "ellipse": {
+            "center_x": 0.1275,
+            "center_y": -1.1092,
+            "radius_x": 1.5099,
+            "radius_y": 1.2189
+          }
+        },
+        {
+          "cluster_id": 3,
+          "players": [
+            "Alexander Zverev",
+            "Andy Murray",
+            "Carlos Alcaraz",
+            "David Goffin",
+            "Grigor Dimitrov",
+            "Milos Raonic",
+            "Roberto Bautista Agut",
+            "Roger Federer",
+            "Stan Wawrinka"
+          ],
+          "n_players": 9,
+          "ellipse": {
+            "center_x": -1.4795,
+            "center_y": 0.9624,
+            "radius_x": 1.9825,
+            "radius_y": 1.2723
+          }
+        }
+      ],
+      "points": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": -0.1981,
+          "PC2": 1.9547
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -0.3865,
+          "PC2": 0.0519
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 0.053,
+          "PC2": 0.5136
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.226,
+          "PC2": -2.0482
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -1.1959,
+          "PC2": -0.0299
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": 1.6648,
+          "PC2": 0.3916
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -0.6195,
+          "PC2": 0.691
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": -0.9324,
+          "PC2": -1.2182
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 0.0601,
+          "PC2": -0.788
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -0.6017,
+          "PC2": -1.0398
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": 0.0925,
+          "PC2": -0.9335
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": 0.8611,
+          "PC2": 0.7751
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": -1.8696,
+          "PC2": 1.5168
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 0.4609,
+          "PC2": 0.9538
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": 3.0908,
+          "PC2": 0.9512
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": 0.0422,
+          "PC2": 0.5968
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 0.0071,
+          "PC2": 0.1389
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": -3.012,
+          "PC2": 0.1019
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 0.348,
+          "PC2": -0.1703
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": 1.1875,
+          "PC2": -0.9887
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": 1.1737,
+          "PC2": -1.4208
+        }
+      ]
+    },
+    "Grass": {
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "players": [
+            "Milos Raonic",
+            "Stefanos Tsitsipas"
+          ],
+          "n_players": 2,
+          "ellipse": {
+            "center_x": 3.1447,
+            "center_y": 0.0345,
+            "radius_x": 0.7906,
+            "radius_y": 0.916
+          }
+        },
+        {
+          "cluster_id": 2,
+          "players": [
+            "Andy Murray",
+            "David Goffin",
+            "Marin Cilic",
+            "Stan Wawrinka"
+          ],
+          "n_players": 4,
+          "ellipse": {
+            "center_x": -0.0631,
+            "center_y": -1.6347,
+            "radius_x": 1.4388,
+            "radius_y": 0.5952
+          }
+        },
+        {
+          "cluster_id": 3,
+          "players": [
+            "Alexander Zverev",
+            "Carlos Alcaraz",
+            "Daniil Medvedev",
+            "Felix Auger Aliassime",
+            "Grigor Dimitrov",
+            "Hubert Hurkacz",
+            "Jannik Sinner",
+            "Kei Nishikori",
+            "Matteo Berrettini",
+            "Novak Djokovic",
+            "Rafael Nadal",
+            "Roberto Bautista Agut",
+            "Roger Federer",
+            "Taylor Fritz",
+            "Tomas Berdych"
+          ],
+          "n_players": 15,
+          "ellipse": {
+            "center_x": -1.0199,
+            "center_y": 0.3588,
+            "radius_x": 1.8795,
+            "radius_y": 1.4603
+          }
+        }
+      ],
+      "points": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": 0.1814,
+          "PC2": -0.3588
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -1.0519,
+          "PC2": -1.3653
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 0.1005,
+          "PC2": 0.0315
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.1464,
+          "PC2": 1.5391
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -0.6836,
+          "PC2": -1.9499
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": -1.2769,
+          "PC2": 0.2679
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -0.5305,
+          "PC2": -0.2206
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": -0.3463,
+          "PC2": 0.1663
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 0.2557,
+          "PC2": 1.5342
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -2.4494,
+          "PC2": 0.6296
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": 0.6711,
+          "PC2": -1.5467
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": -0.9509,
+          "PC2": 0.5091
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": 2.8041,
+          "PC2": -0.6016
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 0.2381,
+          "PC2": 0.2945
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": 0.3326,
+          "PC2": 1.1089
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": -0.8731,
+          "PC2": -0.4686
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 0.4096,
+          "PC2": 1.0076
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": 0.9257,
+          "PC2": -1.3195
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 3.4853,
+          "PC2": 0.6705
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": -0.4443,
+          "PC2": -0.8215
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": -0.6508,
+          "PC2": 0.8934
+        }
+      ]
+    },
+    "Hard": {
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "players": [
+            "Andy Murray",
+            "David Goffin",
+            "Felix Auger Aliassime",
+            "Kei Nishikori"
+          ],
+          "n_players": 4,
+          "ellipse": {
+            "center_x": -2.5494,
+            "center_y": 0.4061,
+            "radius_x": 1.3734,
+            "radius_y": 0.9769
+          }
+        },
+        {
+          "cluster_id": 2,
+          "players": [
+            "Carlos Alcaraz",
+            "Roberto Bautista Agut",
+            "Taylor Fritz"
+          ],
+          "n_players": 3,
+          "ellipse": {
+            "center_x": 0.7928,
+            "center_y": 1.5642,
+            "radius_x": 0.8121,
+            "radius_y": 0.5233
+          }
+        },
+        {
+          "cluster_id": 3,
+          "players": [
+            "Alexander Zverev",
+            "Jannik Sinner",
+            "Milos Raonic",
+            "Novak Djokovic"
+          ],
+          "n_players": 4,
+          "ellipse": {
+            "center_x": 2.218,
+            "center_y": 0.1829,
+            "radius_x": 0.9653,
+            "radius_y": 1.0403
+          }
+        },
+        {
+          "cluster_id": 4,
+          "players": [
+            "Daniil Medvedev",
+            "Grigor Dimitrov",
+            "Marin Cilic",
+            "Matteo Berrettini",
+            "Rafael Nadal",
+            "Stefanos Tsitsipas"
+          ],
+          "n_players": 6,
+          "ellipse": {
+            "center_x": -0.5898,
+            "center_y": -0.3028,
+            "radius_x": 1.1821,
+            "radius_y": 0.6719
+          }
+        },
+        {
+          "cluster_id": 5,
+          "players": [
+            "Hubert Hurkacz",
+            "Roger Federer",
+            "Stan Wawrinka",
+            "Tomas Berdych"
+          ],
+          "n_players": 4,
+          "ellipse": {
+            "center_x": 0.9862,
+            "center_y": -1.2699,
+            "radius_x": 1.043,
+            "radius_y": 1.1049
+          }
+        }
+      ],
+      "points": [
+        {
+          "player": "Alexander Zverev",
+          "PC1": 2.2683,
+          "PC2": 0.9433
+        },
+        {
+          "player": "Andy Murray",
+          "PC1": -2.5949,
+          "PC2": -0.2908
+        },
+        {
+          "player": "Carlos Alcaraz",
+          "PC1": 1.1549,
+          "PC2": 1.8075
+        },
+        {
+          "player": "Daniil Medvedev",
+          "PC1": -0.9027,
+          "PC2": -0.6898
+        },
+        {
+          "player": "David Goffin",
+          "PC1": -3.4729,
+          "PC2": 1.103
+        },
+        {
+          "player": "Felix Auger Aliassime",
+          "PC1": -1.626,
+          "PC2": 0.3846
+        },
+        {
+          "player": "Grigor Dimitrov",
+          "PC1": -1.0313,
+          "PC2": -0.3786
+        },
+        {
+          "player": "Hubert Hurkacz",
+          "PC1": 0.3932,
+          "PC2": -1.5625
+        },
+        {
+          "player": "Jannik Sinner",
+          "PC1": 1.7027,
+          "PC2": -0.3641
+        },
+        {
+          "player": "Kei Nishikori",
+          "PC1": -1.7296,
+          "PC2": 0.3927
+        },
+        {
+          "player": "Marin Cilic",
+          "PC1": -1.1382,
+          "PC2": -0.3436
+        },
+        {
+          "player": "Matteo Berrettini",
+          "PC1": -0.9643,
+          "PC2": 0.0135
+        },
+        {
+          "player": "Milos Raonic",
+          "PC1": 2.7333,
+          "PC2": 0.8593
+        },
+        {
+          "player": "Novak Djokovic",
+          "PC1": 1.8996,
+          "PC2": -0.5774
+        },
+        {
+          "player": "Rafael Nadal",
+          "PC1": -1.3219,
+          "PC2": -0.6947
+        },
+        {
+          "player": "Roberto Bautista Agut",
+          "PC1": 0.4308,
+          "PC2": 1.4697
+        },
+        {
+          "player": "Roger Federer",
+          "PC1": 1.5792,
+          "PC2": -2.0948
+        },
+        {
+          "player": "Stan Wawrinka",
+          "PC1": 0.6908,
+          "PC2": -0.9424
+        },
+        {
+          "player": "Stefanos Tsitsipas",
+          "PC1": 0.1422,
+          "PC2": 0.0891
+        },
+        {
+          "player": "Taylor Fritz",
+          "PC1": 1.0956,
+          "PC2": 1.3209
+        },
+        {
+          "player": "Tomas Berdych",
+          "PC1": 0.6912,
+          "PC2": -0.4449
+        }
+      ]
+    }
+  }
+}
