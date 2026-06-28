@@ -4,7 +4,7 @@ An interactive Plotly and CrewAI-powered application that analyzes tennis playin
 
 ## 🌐 Live Application
 
-**[https://IvoDSBarros.pythonanywhere.com](https://IvoDSBarros.pythonanywhere.com)**
+The interactive visual application is fully deployed and accessible at **[ivodsbarros.github.io/tennis-style-analytics](https://ivodsbarros.github.io/tennis-style-analytics/)**.
 
 *Optimized for desktop viewing*
 
