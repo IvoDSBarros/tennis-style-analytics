@@ -1,12 +1,12 @@
 """
-ai_narrative_generator.py - AI NARRATIVE GENERATOR
-----------------------
-TENNIS PLAYING STYLE ANALYSIS
-@AUTHOR: Ivo Barros
-----------------------
-GOAL: Generate AI-powered tennis playing style narratives for PCA visualizations.
-Outputs 2 sections per surface: Scores (scatter plot explanation) 
-and Loadings (variable interpretation).
+================================================================================
+AI NARRATIVE GENERATOR
+================================================================================
+
+PURPOSE: 
+    Generate AI-powered tennis playing style narratives for PCA visualizations.
+    Outputs 2 sections per surface: Scores (scatter plot explanation) 
+    and Loadings (variable interpretation).
 
 INPUT:
     data/pca_scores_by_surface.json
@@ -257,8 +257,9 @@ def create_crew():
             "Step 3: For each metric, check its DIRECTIONAL SIGN on each axis. A positive loading pushes toward the positive end. A negative loading pulls toward the negative end.\n"
             "Step 4: For PC1, separate metrics into POSITIVE PUSHERS and NEGATIVE PULLERS. List them separately.\n"
             "Step 5: For PC2, repeat Step 4.\n"
-            "Step 6: Before writing about any player, verify that you are describing metrics on the correct axis with the correct directional sign.\n\n"
-            
+            "Step 6: Before writing about any player, verify that you are describing metrics on the correct axis with the correct directional sign.\n"
+            "Step 7: Before finalizing, scan your output for Markdown symbols (*, **, `). Remove all instances. Use word emphasis naturally through sentence structure, not typography.\n\n"
+                        
             "DATA-TO-TENNIS TRUTH GUARDRAILS (ANTI-HALLUCINATION):\n"
             "- THE ONE-SIDED AXIS RULE: If an axis contains exclusively one-sided metric weights (all variables load positively OR all load negatively), you must explicitly state that there are zero opposing metrics pulling in the opposite direction. Never fabricate a competing tactical style. Characterize a low score on a one-sided axis strictly as a structural deficit or absence of those traits.\n"
             "- THE PRIMARY-SECONDARY LOADING RULE: Metrics do not 'belong' exclusively to one axis. A metric may load strongly on PC1 and weakly on PC2, or vice versa. When describing a player's position: use the PRIMARY axis (highest absolute loading) to explain the metric's dominant influence. Acknowledge a SECONDARY influence ONLY if the loading exceeds 0.3 on that axis. If a metric loads below 0.3 on an axis, it has NEGLIGIBLE influence and must be ignored for that dimension.\n"
@@ -346,7 +347,7 @@ def main():
         
         success = False
         retries = 0
-        max_retries = 3
+        max_retries = 2
         
         while not success and retries <= max_retries:
             try:
